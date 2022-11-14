@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="static/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="box-form">
+	<div class="left">
+		<div class="overlay">
+		</div>
+	</div>
+	
+	
+		<div class="right">
+		<h5>Login</h5>
+		<p>Don't have an account? <a href="{{ url_for('sign')}}">sign up</a> it takes less than a minute</p>
+		<div class="inputs">
+		<form action="{{ url_for('Login')}}" method="post">  
+			<input type="text" id="inputEmail4" placeholder="user name" name="logname">
+			<input type="password" id="inputPassword4" placeholder="password" name="logpass">
+	
+			<br><br>
+			
+			<br>
+			<button type="submit" class="btn btn-info" style="margin: 10px;">Login</button>
+			<i class="fab fa-brands fa-facebook fa-2x" style="color: blue;"></i>&nbsp;&nbsp;
+			<i class="fab fa-brands fa-google fa-2x" style="color: red;"></i>
+		</form>  
+		</div>
+			
+			<br><br>
+			
+			<br>
+
+	</div>
+	
+</div>
+<!-- partial -->
+  
+</body>
+</html>
