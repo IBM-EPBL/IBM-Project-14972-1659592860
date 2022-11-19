@@ -1,0 +1,35 @@
+Project Flow
+User interacts with the UI (User Interface) to upload the image as input
+The uploaded image is analyzed by the model which is integrated
+Once the model analyzes the uploaded image, the prediction is showcased on the UI and OpenCV window
+To accomplish this, we have to complete all the activities and tasks listed below
+
+1.Data Collection
+
+Collect the dataset or Create the dataset
+
+2.Image Preprocessing.
+
+Importing the required libraries
+
+Loading Train data and Test data 
+
+Quantifying images
+
+Label Encoding
+
+3.Model Building
+
+Training the model
+
+Testing the model 
+
+4.Model Evaluation
+
+Saving the model
+
+5.Application Building
+
+Create an HTML file
+
+Build Python Code
