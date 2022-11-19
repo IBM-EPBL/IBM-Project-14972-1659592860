@@ -1,0 +1,16 @@
+OBJECTIVES
+
+1.The main purpose of this project work is to find the best prediction model
+ i.e. the best machine learning technique which will distinguish the Parkinson’s patient from the healthy person.
+	
+2.Comparing with other algorithms and building the diagnosis model with the most efficient algorithm among them.
+
+3. To understand the problem to classify if it is a regression or a classification kind of problem.
+
+4.To know how to pre-process the image by using different data pre-processing techniques.
+
+5.To learn how to use OpenCV and machine learning to automatically detect Parkinson’s disease in hand-drawn images of spirals and waves.
+
+6.To know how to find the accuracy of the model.
+
+7.To build web applications using the Flask framework.
